@@ -1,0 +1,46 @@
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+RESPOSTA:
+tempo = distância / velocidade
+
+Para o carro, temos:
+
+tempo do carro = distância / velocidade do carro
+tempo do carro = 100 km / 110 km/h = 0,909 horas
+
+Para o caminhão, temos:
+
+tempo do caminhão = (distância / velocidade do caminhão) + tempo extra dos pedágios
+tempo do caminhão = (100 km / 80 km/h) + 2 x 0,0833 horas= 1,4166 horas
+ou seja, sua velocidade total é de 100km/1,42h = 70,4km/h
+
+Para a distância, temos:
+
+distancia do carro = velocidade do carro x tempo total
+distancia do caminhao = distancia total - (velocidade do caminhao x tempo total)
+
+isolando o tempo total nas duas equaçoes, temos:
+tempo total = distancia do carro / velocidade do carro
+tempo total = (distancia do caminha - distancia total) / -velocidade do caminhao
+
+igualando as equaçoes, temos:
+distancia do carro / velocidade do carro = (distancia do caminhao - distancia total) / -velocidade do caminhao
+
+se queremos descobrir o ponto de encontro, as distâncias serão iguais:
+distancia / velocidade do carro = (distancia - distancia total) / -velocidade do caminhao
+
+substituindo pelos valores informados e calculados anteriormente, temos:
+distancia / 110km/h = (distancia - 100km) / -70,4km/h
+
+A distância em que o carro está de Ribeirao Preto é de 60,97km, e a distância em que o caminhão está da mesma cidade é de 60,97km, portanto estão a mesma distância.
+
+
